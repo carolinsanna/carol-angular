@@ -4,9 +4,10 @@ import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-logos',
+  standalone: true,
   imports: [CommonModule],
   templateUrl: './logos.html',
-  styleUrl: './logos.css',
+  styleUrls: ['./logos.css'],
 })
 export class Logos {
   logos = [
