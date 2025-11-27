@@ -4,6 +4,7 @@ import { Logos } from './logos/logos';
 
 @Component({
   selector: 'app-root',
+  standalone: true,
   imports: [RouterOutlet, Logos],
   templateUrl: './app.html',
   styleUrl: './app.css'
