@@ -1,1 +1,7 @@
-<p>logos works!</p>
+<div class="overflow-hidden whitespace-nowrap py-4">
+    <div class="flex gap-10 animate-logo-loop">
+        <img *ngFor="let logo of logos" [src]="logo" class="h-12" />
+        <img *ngFor="let logo of logos" [src]="logo" class="h-12" />
+        <p>logos works!</p>
+    </div>
+</div>
