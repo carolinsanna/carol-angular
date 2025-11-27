@@ -11,10 +11,24 @@ import { CommonModule } from '@angular/common';
 })
 export class Logos {
   logos = [
-    'assets/logos/logo1.png',
-    'assets/logos/logo2.png',
-    'assets/logos/logo3.png',
-    'assets/logos/logo4.png',
-    'assets/logos/logo5.png'
+    'logos/azure.svg',
+    'logos/ccs3.svg',
+    'logos/debian.svg',
+    'logos/electron.svg',
+    'logos/filezilla.svg',
+    'logos/git.svg',
+    'logos/graphql.svg',
+    'logos/html-5.svg',
+    'logos/insomnia.svg',
+    'logos/javascript.svg',
+    'logos/node.svg',
+    'logos/npm.svg',
+    'logos/raspberry-pi.svg',
+    'logos/reactjs.svg',
+    'logos/salesforce.svg',
+    'logos/tailwind.svg',
+    'logos/vitejs.svg',
+    'logos/vscode.svg',
+    'logos/vue.svg',
   ]
 }
