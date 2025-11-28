@@ -12,7 +12,6 @@ import { CommonModule } from '@angular/common';
 export class Logos {
   logos = [
     'logos/azure.svg',
-    'logos/ccs3.svg',
     'logos/debian.svg',
     'logos/electron.svg',
     'logos/filezilla.svg',
