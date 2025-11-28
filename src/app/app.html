@@ -1,5 +1,5 @@
 <main class="main font-mono text-lime-200 bg-gray-900">
-  <div class="content gap-4">
+  <div class="content justify-between gap-10">
     <div class="hero gap-4">
       <h1 class="text-5xl">Carolina Trindade Dias</h1>
       <div class="bio">
@@ -7,8 +7,7 @@
         <p>Estudante de Ciência da Computação na Anhanguera</p>
       </div>
     </div>
-    <div class="divider" role="separator" aria-label="Divider"></div>
-    <div class="sociallinks">
+    <div class="social-links">
       <div class="pill-group gap-4">
         @for (item of [
         { title: 'Linkedin', link: 'https://www.linkedin.com/in/carolinatrindadedias' },
@@ -20,8 +19,8 @@
         </a>
         }
       </div>
-
     </div>
+    <app-logos />
   </div>
 </main>
 
@@ -32,7 +31,7 @@
 
   .hero,
   .content {
-    @apply flex flex-col items-center justify-center;
+    @apply flex flex-col items-center;
   }
 
   .pill-group {
