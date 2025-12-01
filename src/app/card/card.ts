@@ -31,7 +31,7 @@ export class Card {
     {
       name: 'Angular',
       description: 'Meu primeiro projeto em Angular',
-      thumb: 'thumbs/jokenpoangular.png',
+      thumb: 'thumbs/angular.png',
       link: 'https://carol-angular.netlify.app'
     }
   ];
